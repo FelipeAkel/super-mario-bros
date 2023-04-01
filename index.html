@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,44 +17,57 @@
 
     <title>Super Mario Bros - O Filme</title>
 </head>
+
 <body>
-    <div>
-        <video autoplay loop muted>
-            <source src="./src/video/video-mario.mp4" type="video/mp4" />
+    <div class="background-video">
+        <video class="video" autoplay loop muted>
+            <source src="./src/video/video-mario-2.mp4" type="video/mp4" />
         </video>
     </div>
 
-    <header>
+    <header class="cabecalho">
         <a>
-            <img src="./src/img/logo-chapeu-mario.png" alt="Logo Chapéu Mario">
+            <img class="logo" src="./src/img/logo-chapeu-mario.png" alt="Logo Chapéu Mario">
         </a>
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Detalhes</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <div>
-            <img src="./src/img/titulo.png" alt="Título Super Mario Bros">
-            <p>Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os lugares.</p>
-            <button>Veja o Trailer</button>
+    <main class="container">
+        <div class="XXXXXXX">
+            <img class="img-titulo" src="./src/img/titulo.png" alt="Título Super Mario Bros">
+            <p class="descricao" >Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado
+                pela Princesa Peach, mas ameaçado pelo rei dos Koopas, que faz de tudo para conseguir reinar em todos os
+                lugares.</p>
+            <button class="btn-trailer">Veja o Trailer</button>
         </div>
 
-        <img src="./src/img/super-mario-chars.png" alt="Equipe do Mario Word">
+        <img class="XXXXXXX" src="./src/img/super-mario-chars.png" alt="Equipe do Mario Word">
 
         <!-- Modal -->
-        <div>
-            <div>
-                <span> X </span>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/cDNkh5WybZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fechar-modal"> X </span>
+                <iframe src="https://www.youtube.com/embed/cDNkh5WybZo"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
             </div>
         </div>
-
-        <p>Versão 1.0.0</p>
+        
+        
     </main>
+
+    <!-- <footer>
+        <div class="rodape">
+            <p class="rodape-texto">Versão 1.0.0</p>
+        </div>
+    </footer> -->
     
 </body>
+
 </html>
